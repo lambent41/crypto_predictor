@@ -1,0 +1,16 @@
+app:
+  datasource:
+    jdbc-url: jdbc:mysql://localhost:3306/multimediaDemo2
+    username: root
+    password: mysqlpassword
+    pool-size: 30
+
+spring:
+  thymeleaf:
+    prefix: classpath:templates/
+    suffix: .html
+    check-template-location: true
+    cache: false
+  devtools:
+    livereload:
+      enabled: true
