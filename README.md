@@ -1,0 +1,5 @@
+# crypto_predictor
+
+### API
+
+# 
